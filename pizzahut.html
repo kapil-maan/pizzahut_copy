@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container relative">
+			<nav class="flex justify-between items-center px-28">
+				<div class="">
+					<img src="pizza-logo.png" alt="IBM Logo" class="h-8" />
+				</div>
+
+				<a href="#">Sign in</a>
+			</nav>
+		</div>
+
+		<section>
+			<div>
+				<img
+					src="https://www.pizzahut.co.in/order/images/backgrounds/in/en-IN/home-bg-md.9dd31be8f7ced8c87278cb3aa6726170.jpg"
+					alt=""
+				/>
+			</div>
+		</section>
+
+		<div
+			class="absolute z-50 top-1/2 left-1/3 w-full max-w-md mx-auto mt-10 bg-white shadow-lg rounded-lg p-5"
+		>
+			<!-- Tabs -->
+			<div class="flex border-b">
+				<button
+					class="w-1/2 text-red-500 font-semibold border-b-2 border-red-500 py-2"
+				>
+					Delivery
+				</button>
+				<button class="w-1/2 bg-gray-500 font-semibold py-2">
+					Collect From Store
+				</button>
+			</div>
+
+			<!-- Content -->
+			<div class="mt-4">
+				<h2 class="text-lg font-bold">FIND YOUR NEAREST HUT</h2>
+				<p class="text-gray-600 text-sm mt-1">
+					Enter your address to see your local deals, coupons, and
+					offers.
+				</p>
+
+				<!-- Input Box -->
+				<div class="mt-4 border border-gray-300 rounded-lg p-3">
+					<input
+						type="text"
+						placeholder="Enter your location for delivery"
+						class="w-full outline-none placeholder-gray-500 text-sm"
+					/>
+				</div>
+
+				<!-- Current Location -->
+				<button class="flex items-center text-blue-500 text-sm mt-3">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke="currentColor"
+						class="w-5 h-5 mr-1"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M12 3v1m0 16v1m9-9h-1M4 12H3m16.07-5.07l-.707.707M6.343 17.657l-.707.707m12.02 0l.707.707M6.343 6.343l-.707-.707M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+						/>
+					</svg>
+					Find my current location
+				</button>
+			</div>
+		</div>
+
+        <div class=" mx-auto my-10 px-4 py-10">
+            
+             
+            <hr class="border-t border-gray-300 mb-6">
+            <h2 class="text-center text-2xl font-semibold mb-6">Our Most Popular Deals</h2>
+            <!-- Deals Grid -->
+             
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/hut125.5893dee123b1a79e089241a83f936067.1.jpg" alt="Deal 1" class="w-full">
+                 
+              </div>
+          
+               
+              <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/hut100.90e4d53d30d88b599cb2c3d2d5387112.1.jpg" alt="Deal 2" class="w-full">
+                 
+              </div>
+            </div>
+          
+             
+            <div class="mt-6 flex justify-center">
+              <button class="bg-green-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-700">
+                View all deals
+              </button>
+            </div>
+          </div>
+          
+
+
+
+        
+	</body>
+</html>
